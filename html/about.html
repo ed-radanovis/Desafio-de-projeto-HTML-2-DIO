@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>About - Protótipo para clínica</title>
+</head>
+
+<body>
+    <header>
+        <audio id="music" loop="true">
+            <source src="../assets/music/SmoothJazz.mp3" aria-details="Audio do site" />
+            Seu navegador nao tem suporte para este audio
+        </audio>
+        <img title="logotipo de empresa especialidades médicas" src="../assets/images/logo-empresa.png"
+            alt="logotipo da empresa" id="logo-empresa">
+        <strong title="logomarca de empresa especialidades médicas" id="div-logomarca-header">Nome da empresa</strong>
+    </header>
+    <main class="main">
+        <h1 title="somos especializados em pessoas">Nossa <i>ESPECIALIDADE</i> é você !!!</h1>
+        <p>Em nossa Clínica você encontra uma seleta gama de especialistas que oferecem consultas clínicas,
+            prevenção, tratamento de doenças crônicas, exames laboratoriais e de imagem com especialistas de alto
+            padrão. Estamos comprometidos diariamente em ser um espaço que oferece o melhor atendimento em diversas
+            especialidades.</p>
+        <br>
+        <p>Oferecemos um espaço de atendimento para especialistas médicos e soluções em prevenção, diagnóstico e
+            tratamento. Com mais de <b>100</b> profissionais da saúde reunidos, prezamos pelo atendimento humanizado e
+            qualificado. Possuímos atendimento particular e somos credenciados para o atendimento de
+            diversos convênios.</p>
+        <ul class="ul-about"> Nossas especialidades :
+            <li class="list-specialties">Cardiologia</li>
+            <li class="list-specialties">Oncologia</li>
+            <li class="list-specialties">Endocrinologia</li>
+            <li class="list-specialties">Hematologia</li>
+            <li class="list-specialties">Pediatria</li>
+            <li class="list-specialties">Medicina familiar</li>
+            <li class="list-specialties">Alergia e imunologia</li>
+        </ul>
+        <iframe width="967" height="544" src="https://www.youtube.com/embed/gwtkEdd5YZk"
+            title="Ressonância magnética: veja como é feito e para que serve" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>Seu navegador não possui Suporte para este recurso ...</iframe>"
+    </main>
+    <nav>
+        <ul>
+            <span title="imagem ícone home" class="material-symbols-outlined span-nav">home</span>
+            <li class="li-nav"><a title="link da barra de navegação para home" href="/html/home.html">Home</a></li>
+            <span title="imagem ícone sobre nós" class="material-symbols-outlined span-nav">badge</span>
+            <li class="li-nav"><a title="link da barra de navegação para sobre nós" href="/html/about.html">Sobre
+                    nós</a></li>
+            <span title="imagem ícone atendimento" class="material-symbols-outlined span-nav">calendar_month</span>
+            <li class="li-nav"><a title="link da barra de navegação para atendimento"
+                    href="/html/opening.html">Atendimento</a></li>
+            <span title="imagem ícone contato" class="material-symbols-outlined span-nav">contact_page</span>
+            <li class="li-nav"><a title="link da barra de navegação para contato" href="/html/contact.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <footer>
+        <span title="imagem ícone telefone" class="material-symbols-outlined span-footer">phone </span><a
+            title="link de rodapé para whatsapp " class="anchor-footer" href="https://web.whatsapp.com/"
+            target="_blank"> (0XX) 99999-9999</a>
+        <span title="imagem ícone e-mail" class="material-symbols-outlined span-footer">alternate_email </span><a
+            title="link de rodapé para e-mail" class="anchor-footer" href="https://www.google.com/" target="_blank">
+            seumelhoremail@provedor.com</a>
+        <span title="imagem ícone Instagram" class="material-symbols-outlined span-footer">groups </span><a
+            title="link de rodapé para whatsapp Instagram" class="anchor-footer" href="https://www.instagram.com/"
+            target="_blank"> Instagram</a>
+        <span title="imagem ícone Facebook" class="material-symbols-outlined span-footer">share </span><a
+            title="link de rodapé para whatsapp Facebook" class="anchor-footer" href="https://www.facebook.com/"
+            target="_blank"> facebook</a>
+    </footer>
+
+    <script>
+        window.addEventListener('click', function () {
+            const audio = document.getElementById('music');
+            audio.play();
+            audio.volume = 0.1;
+        });
+    </script>
+</body>
+
+</html>

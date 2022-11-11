@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Home - Protótipo para clínica</title>
+</head>
+
+<body>
+    <header>
+        <audio id="music" loop="true">
+            <source src="../assets/music/SmoothJazz.mp3" aria-details="Audio do site" />
+            Seu navegador nao tem suporte para este audio
+        </audio>
+        <img title="logotipo de empresa especialidades médicas" src="../assets/images/logo-empresa.png"
+            alt="logotipo da empresa" id="logo-empresa">
+        <strong title="logomarca de empresa especialidades médicas" id="div-logomarca-header">Nome da empresa</strong>
+    </header>
+    <main>
+        <h1 title="Missão de levar saúde e acessibilidade a todos" id="h1-main">A Clínica que cuida de você e de sua
+            Família!</h1>
+        <p><b>Nossa Missão:</b> Atuar em todo o território brasileiro, levando saúde e acessibilidade para todos, sendo
+            reconhecida pela inovação e cultura de experiência, focando nos clientes, impactando e transformando a vida
+            de todos.</p>
+        <br>
+        <p><b>Comodidade na sua consulta</b> ... para você aproveitar o que a vida tem de melhor:</p>
+        <p>Nossa infraestrutura moderna e vivaz complementa nosso atendimento acolhedor para aumentar o seu conforto e
+            bem-estar.
+            Somos reconhecidos pela nossa excelência no tratamento de casos de alta complexidade, além de uma ampla
+            cobertura de <strong>convênios médicos</strong>.
+        </p>
+        <br>
+        <p>Nossa Clínica foi fundada em <i>19XX</i> com o intuito de implementar modelos de gestão de saúde, com
+            tecnologia e inovação que atendessem às necessidades dos pacientes.
+            Há mais de <b>XX</b> anos, somos <u>referência</u> em especialidades médicas e fisioterápicas na
+            <mark>Região de ***.</mark> Tal
+            reconhecimento é resultado do acolhimento, profissionalismo, atualização constante e união de nossa equipe.
+            Contamos com colaboradores altamente capacitados e corpo clínico com reconhecimento internacional, isso
+            aliado as mais modernas tecnologias e protocolos de saúde. Para nós, cada indivíduo é tratado em sua
+            plenitude, com uma saúde integrativa e focada no bem-estar físico, mental e espiritual!
+        </p>
+        <figure>
+            <img title="imagem das instalações e equipamentos médicos" src="../assets/images/foto-clinica-1.jpg"
+                class="img-main-home" alt="imagem dos equipamentos clínicos">
+            <img title="imagem das instalações e equipamentos médicos" src="../assets/images/foto-clinica-2.jpg"
+                class="img-main-home" alt="imagem dos equipamentos clínicos">
+            <img title="imagem das instalações e equipamentos médicos" src="../assets/images/foto-clinica-3.jpg"
+                class="img-main-home" alt="imagem dos equipamentos clínicos">
+        </figure>
+    </main>
+    <nav>
+        <ul>
+            <span title="imagem ícone home" class="material-symbols-outlined span-nav">home</span>
+            <li class="li-nav"><a title="link da barra de navegação para home" href="/html/home.html">Home</a></li>
+            <span title="imagem ícone sobre nós" class="material-symbols-outlined span-nav">badge</span>
+            <li class="li-nav"><a title="link da barra de navegação para sobre nós" href="/html/about.html">Sobre
+                    nós</a></li>
+            <span title="imagem ícone atendimento" class="material-symbols-outlined span-nav">calendar_month</span>
+            <li class="li-nav"><a title="link da barra de navegação para atendimento"
+                    href="/html/opening.html">Atendimento</a></li>
+            <span title="imagem ícone contato" class="material-symbols-outlined span-nav">contact_page</span>
+            <li class="li-nav"><a title="link da barra de navegação para contato" href="/html/contact.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <footer>
+        <span title="imagem ícone telefone" class="material-symbols-outlined span-footer">phone </span><a
+            title="link de rodapé para whatsapp " class="anchor-footer" href="https://web.whatsapp.com/"
+            target="_blank"> (0XX) 99999-9999</a>
+        <span title="imagem ícone e-mail" class="material-symbols-outlined span-footer">alternate_email </span><a
+            title="link de rodapé para e-mail" class="anchor-footer" href="https://www.google.com/" target="_blank">
+            seumelhoremail@provedor.com</a>
+        <span title="imagem ícone Instagram" class="material-symbols-outlined span-footer">groups </span><a
+            title="link de rodapé para whatsapp Instagram" class="anchor-footer" href="https://www.instagram.com/"
+            target="_blank"> Instagram</a>
+        <span title="imagem ícone Facebook" class="material-symbols-outlined span-footer">share </span><a
+            title="link de rodapé para whatsapp Facebook" class="anchor-footer" href="https://www.facebook.com/"
+            target="_blank"> facebook</a>
+    </footer>
+
+    <script>
+        window.addEventListener('click', function () {
+            const audio = document.getElementById('music');
+            audio.play();
+            audio.volume = 0.1;
+        });
+    </script>
+</body>
+
+</html>

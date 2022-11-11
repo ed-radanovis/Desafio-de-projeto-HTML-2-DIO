@@ -1,0 +1,47 @@
+h1 {
+    margin: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #3B8FB5;
+}
+
+p {
+    margin: 0 20px 0 30px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+iframe {
+    width: 40vw;
+    height: 35vh;
+    box-shadow: 15px 15px 10px -3px #4d4b4b;
+    border-radius: 8px;
+    margin: -20% 0 0 40vw;
+}
+
+.ul-about {
+    font-family: "Parisienne";
+    font-size: 36px;
+    font-weight: 600;
+    color: #014663;
+    width: 30vw;
+
+    margin: 2% 20px 0 60px;
+}
+
+.list-specialties {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px 0 0 30px;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+
+    #div-2-header {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

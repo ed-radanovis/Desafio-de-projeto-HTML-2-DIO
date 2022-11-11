@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #dfdbdbc1;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    background-color: #014663;
+}
+
+#logo-empresa {
+    width: 8%;
+    object-fit: contain;
+    background-color: #dfdbdbc1;
+    margin: 3px 0 3px 12%;
+    border-radius: 50%;
+    box-shadow: 10px 0px 13px -1px #161615d6;
+}
+
+#div-logomarca-header {
+    width: 60vw;
+    height: 15vh;
+    background-color: transparent;
+    margin-left: 2%;
+    padding: 4px 0 0 200px;
+    font-family: 'Parisienne', sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    color: #B3FFFF;
+    text-shadow: 5px 5px 2px #161615d6;
+}
+
+main {
+    width: 90vw;
+    height: 60vh;
+    margin-left: 10vw;
+}
+
+nav {
+    width: 10vw;
+    height: 80vh;
+    padding: 3px;
+    margin-left: 0;
+    margin-top: -63.9vh;
+    border-right: 2px solid #6a6767;
+    background-color: #3B8FB5;
+}
+
+ul {
+    margin-top: 6vh;
+    background-color: transparent;
+}
+
+a, .li-nav {
+    color: #B3FFFF;
+    background-color: transparent;
+    padding: 3px 2px 35%;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.material-symbols-outlined {
+    background-color: transparent;
+    color: #000000;
+}
+
+.span-nav {
+    padding-left: 45%;
+}
+
+footer {
+    width: 100vw;
+    height: 5vh;
+    border-top: 2px solid #6a6767;
+    background-color: #014663;
+}
+
+.span-footer {
+    margin: 1px 0 0 12%;
+    color: #B3FFFF;
+}
+
+.anchor-footer {
+    color: #5dbcbc;
+    text-transform: lowercase;
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        overflow: auto;
+    }
+
+    header {
+        position: relative;
+        margin-top: 0;
+    }
+
+    nav {
+        width: 15vw;
+    }
+
+    #div-logomarca-header {
+        font-size: 25px;
+        margin-left: -20%;
+    }
+}

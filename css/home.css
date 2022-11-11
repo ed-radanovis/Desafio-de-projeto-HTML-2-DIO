@@ -1,0 +1,35 @@
+#h1-main {
+    margin: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #3B8FB5;
+}
+
+p {
+    margin: 0 20px 0 30px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+figure {
+    display: flex;
+    width: 20vw;
+    margin: 2% 0 0 10%;
+    gap: 100px;
+}
+
+.img-main-home {
+    width: 100%;
+    box-shadow: 15px 15px 10px -3px #4d4b4b;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #h1-main {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
