@@ -9,10 +9,10 @@ Academic project for delivery
 - ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
 <br>
 
-<img src="./assets/images/Model.png" alt="print-screen-image" width="500px" align="right">
-<img src="./assets/images/Model_1.png" alt="print-screen-image" width="500px">
-<img src="./assets/images/Model_2.png" alt="print-screen-image" width="500px" align="right">
-<img src="./assets/images/Model_3.png" alt="print-screen-image" width="500px">
+<img src="./assets/images/Model.png" alt="print-screen-image 1" width="500px" align="right">
+<img src="./assets/images/Model_1.png" alt="print-screen-image 2" width="500px">
+<img src="./assets/images/Model_2.png" alt="print-screen-image 3" width="500px" align="right">
+<img src="./assets/images/Model_3.png" alt="print-screen-image 4" width="500px">
 
 <br>
 
